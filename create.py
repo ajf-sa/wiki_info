@@ -6,7 +6,7 @@ with open('generic.csv',mode='r') as generic:
   name = rows[0]
 #   print(name)
   name= name.replace(" ", "_")
-  name = name+".md"
+  name = name+".rst"
   print(name)
   f= open(name,"w+")
   f.close()
